@@ -1,0 +1,14 @@
+body {
+	background-color: rgba(0, 0, 0, 0.815);
+	color: whitesmoke;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+#input-box {
+	background-color: whitesmoke;
+}
+
+h2 {
+	color: whitesmoke;
+}
