@@ -4,7 +4,7 @@ const MISSING_IMAGE_URL = "http://tinyurl.com/missing-tv";
 // axias get request returns array of objects as showData:
 async function searchShows(query) {
 	const res = await axios.get(
-		`http://api.tvmaze.com/singlesearch/shows?q=${query}`
+		`https://api.tvmaze.com/singlesearch/shows?q=${query}`
 	);
 	const showData = [
 		{
